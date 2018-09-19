@@ -2,7 +2,7 @@
   "name": "match-match-game-react",
   "version": "1.0.0",
 	"description": "Match-match-game using React by Nadya Ponkratova",
-	"homepage":"https://Nadya-Ponka.github.io/react-match-match-game/",
+	"homepage":"https://Nadya-Ponka.github.io/match-match-game-react/",
   "main": "index.js",
   "scripts": {
 		"dev": "webpack --mode development",
