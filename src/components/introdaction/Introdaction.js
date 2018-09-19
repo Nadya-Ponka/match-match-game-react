@@ -88,13 +88,13 @@ class Introduction extends React.Component {
                 <h1>Выбери карты:</h1>
                 <ul id="back-card">
                     <li>
-                        <img id="back-1.png" className='choose active' onClick={this.chooseBackCardHandler} src="../Images/back-1.png" alt="cover-1" />
+                        <img id="back-1.png" className='choose active' onClick={this.chooseBackCardHandler} src="./back-1.png" alt="cover-1" />
                     </li>
                     <li>
-                        <img id="back-2.png" className='choose' onClick={this.chooseBackCardHandler} src="../Images/back-2.png" alt = "cover-2" />
+                        <img id="back-2.png" className='choose' onClick={this.chooseBackCardHandler} src="./back-2.png" alt = "cover-2" />
                     </li>
                     <li>
-                        <img id="back-3.png" className='choose' onClick={this.chooseBackCardHandler} src="../Images/back-3.png" alt = "cover-3" />
+                        <img id="back-3.png" className='choose' onClick={this.chooseBackCardHandler} src="./back-3.png" alt = "cover-3" />
                     </li>
                 </ul>
 
