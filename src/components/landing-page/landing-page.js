@@ -18,7 +18,7 @@ class LandingPage extends React.Component {
     render() {
         return (
             <div className="rules">
-                <img className="title" src="Images/Title.svg" alt="" /> 
+                <img className="title" src="./Title.svg" alt="" /> 
                 <p>Давай найдем каждому Смешарику пару! Переворачивай любые две карточки. Если они одинаковые — пара найдена. Найди пары
                     для всех. И поспеши!
                 </p>
