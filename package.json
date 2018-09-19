@@ -1,11 +1,15 @@
 {
   "name": "match-match-game-react",
   "version": "1.0.0",
-  "description": "Match-match-game using React by Nadya Ponkratova",
+	"description": "Match-match-game using React by Nadya Ponkratova",
+	"homepage":"https://Nadya-Ponka.github.io/react-match-match-game/",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development",
-    "start": "webpack-dev-server --open --mode development",
+		"dev": "webpack --mode development",
+		"build": "webpack --mode production",
+		"start": "webpack-dev-server --open --mode development",
+		"predeploy":"npm run build",
+		"deploy":"gh-pages -d dist",
     "test": "jest",
     "test:coverage": "jest --coverage"
   },
@@ -37,6 +41,7 @@
     "redux-mock-store": "^1.5.3",
     "serialize-javascript": "^1.5.0",
     "style-loader": "^0.21.0",
+    "uglify-js-brunch": "^2.10.0",
     "webpack": "^4.16.0",
     "webpack-cli": "^3.0.8",
     "webpack-dev-server": "^3.1.4"
@@ -46,6 +51,7 @@
     "babel-polyfill": "^6.26.0",
     "babel-runtime": "^6.26.0",
     "classnames": "^2.2.6",
+    "gh-pages": "^2.0.0",
     "jest-css-modules": "^1.1.0",
     "jshint": "^2.9.5",
     "react": "^16.4.1",
@@ -60,7 +66,9 @@
   },
   "jest": {
     "setupTestFrameworkScriptFile": "<rootDir>/__tests__/setup/setupEnzyme.js",
-    "transform": {".*": "<rootDir>/node_modules/jest-css-modules"},
+    "transform": {
+      ".*": "<rootDir>/node_modules/jest-css-modules"
+    },
     "testPathIgnorePatterns": [
       "<rootDir>/__tests__/setup/"
     ],
