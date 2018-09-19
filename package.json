@@ -1,15 +1,15 @@
 {
   "name": "match-match-game-react",
   "version": "1.0.0",
-	"description": "Match-match-game using React by Nadya Ponkratova",
-	"homepage":"https://Nadya-Ponka.github.io/match-match-game-react/",
+  "description": "Match-match-game using React by Nadya Ponkratova",
+  "homepage": "https://Nadya-Ponka.github.io/match-match-game-react/",
   "main": "index.js",
   "scripts": {
-		"dev": "webpack --mode development",
-		"build": "webpack --mode production",
-		"start": "webpack-dev-server --open --mode development",
-		"predeploy":"npm run build",
-		"deploy":"gh-pages -d dist",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "test": "jest",
     "test:coverage": "jest --coverage"
   },
