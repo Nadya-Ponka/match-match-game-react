@@ -63,7 +63,7 @@ class CardsField extends React.Component {
                     checkMatch={this.checkMatch}
                     rotate={card.rotate}
                     src={card.img}
-                    back={`../../../Images/${this.props.backCard}`} />
+                    back={`./${this.props.backCard}`} />
             );
         });
     }
